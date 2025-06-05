@@ -92,7 +92,7 @@ pipeline {
         }
         stage ("Git checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/yeshwanthlm/Prime-Video-Clone-Deployment.git'
+                git branch: 'main', url: 'https://github.com/Paras116255/Amazon-Prime-Video-DevSecOps-Project.git'
             }
         }
         stage("Sonarqube Analysis "){
